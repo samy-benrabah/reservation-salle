@@ -1,0 +1,272 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url(https://www.cdeco.fr/wp-content/uploads/2018/05/astuces-pour-une-decoration-de-mariage-pas-chere.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    height: 10vh;
+    width: 100%;
+    color: black;
+    padding: 20px 92.5vh;
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 20px black;
+    font-family: 'Courgette', cursive;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* height: 5vh; */
+    width: auto;
+}
+
+.header li {
+    margin-right: 5%;
+    padding: 0 2.5vh;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header input[type=submit] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 10em;
+    background: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 1vh;
+    transition: 0.9s;
+}
+
+.header input[type=submit]:hover {
+    transform: scale(1.1);
+}
+
+.block {
+    width: 400px;
+    height: 470px;
+    color: black;
+    top: 50%;
+    left: 50%;
+    padding: 40px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 70px black;
+    font-family: 'Courgette', cursive;
+}
+
+.block-planning {
+    width: 1000px;
+    height: 500px;
+    color: black;
+    top: 50%;
+    left: 50%;
+    padding: 40px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 70px black;
+    font-family: 'Courgette', cursive;
+}
+
+h1 {
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+h2 {
+    color: gold;
+    text-shadow: black 1px 0 10px;
+}
+
+.block input {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.block input[type=text],
+.block input[type=password] {
+    border: none;
+    border-bottom: 1px solid red;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    opacity: 1;
+    color: black;
+}
+
+.block input[type=password] {
+    margin-bottom: 30px;
+}
+
+.block input[type=submit] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f6648b;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 1vh;
+    transition: 0.8s;
+}
+
+.block input[type=submit]:hover {
+    transform: scale(1.1);
+}
+
+.block a {
+    font-size: 14px;
+    text-decoration: none;
+    color: purple;
+    opacity: 0.8;
+}
+
+.block select {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.socials {
+    margin-top: 12%;
+    text-align: center;
+}
+
+.socials a {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    color: white;
+    transition: 0.7s;
+}
+
+.socials a:nth-child(1) {
+    background: #3b5998;
+}
+
+.socials a:hover:nth-child(1) {
+    transform: rotate(60deg);
+    color: white;
+}
+
+.socials a:nth-child(2) {
+    background: #55acee;
+}
+
+.socials a:hover:nth-child(2) {
+    transform: rotate(-60deg);
+    color: white;
+}
+
+.socials a:nth-child(3) {
+    background: #bd081c;
+}
+
+.socials a:hover:nth-child(3) {
+    transform: rotate(60deg);
+    color: white;
+}
+
+.socials a:nth-child(4) {
+    background: #0077b5;
+}
+
+.socials a:hover:nth-child(4) {
+    transform: rotate(-60deg);
+    color: white;
+}
+
+.socials a i {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+footer {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    height: 2.5rem;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 70px;
+}
+
+footer p {
+    font-size: 25px;
+    color: black;
+    text-shadow: gold 1px 0 10px;
+}
+
+.error {
+    color: rgb(255, 36, 36);
+    text-shadow: rgb(0, 255, 0) 1px 0 10px;
+}
+
+.video {
+    position: absolute;
+    top: 20%;
+    margin-left: 5vh;
+}
+
+.video iframe {
+    width: 100vh;
+    height: 50vh;
+    overflow: auto;
+}
+
+.presentation {
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 70px black;
+    top: 20%;
+    right: 10%;
+    margin-right: 5vh;
+    width: 80vh;
+    height: 50vh;
+}
+
+.presentation p {
+    color: rgb(38, 41, 1);
+    position: relative;
+    animation: p 20s infinite;
+    font-family: 'Courgette', cursive;
+    background-color: papayawhip;
+}
+
+@keyframes p {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 40vh;
+    }
+}
